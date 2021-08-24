@@ -7,6 +7,7 @@ import 'package:flutter_application_final2/views/misquejas_view.dart';
 import 'package:flutter_application_final2/views/noticias_view.dart';
 import 'package:flutter_application_final2/views/quejas_view.dart';
 import 'package:flutter_application_final2/views/sugerencia_view.dart';
+import 'package:flutter_application_final2/views/video_view.dart';
 import 'package:line_icons/line_icons.dart';
 
 import '/api/api.dart';
@@ -53,7 +54,7 @@ class _HomePageState extends State<HomePage> {
     ),
     Pagina(
       'Videos',
-      Text('g'),
+      Video_View(),
     ),
     Pagina(
       'Quejas',
