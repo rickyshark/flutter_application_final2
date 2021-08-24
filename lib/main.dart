@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Utesa',
+      title: 'UTESA',
       theme: ThemeData(primaryColor: Colors.amber, accentColor: Colors.green),
       home: LoginPage(),
     );
