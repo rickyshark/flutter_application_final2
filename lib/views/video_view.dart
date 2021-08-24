@@ -37,7 +37,6 @@ class _Video_ViewState extends State<Video_View> {
                 for (var c in video!)
                   Card(
                     child: Column(children: [
-                      Image.network(c.nombre),
                       ListTile(
                         title: Text('Materia: ${c.codigo} - ${c.nombre}'),
                         subtitle: Linkify(
